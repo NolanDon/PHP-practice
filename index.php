@@ -9,15 +9,19 @@
     // echo 'my owner is: '.$rover->owner();
     // $cookie = new Person();
     // echo $cookie->owner();
+    // $me = new Person();
+    // $me->setName("Devon");
+    // echo $me->name;
 
-    $me = new Person();
-    $me->setName("Devon");
+    // $me2 = new Person();
+    // $me2->setName("Timmy");
+    // echo $me2->name;
+
+    $me = new Person('Name', 'Green', '26');
+    $me->setName('Jerry');
     echo $me->name;
-
-    $me2 = new Person();
-    $me2->setName("Timmy");
-    echo $me2->name;
-
+    echo $me->eyeColor;
+    echo $me->age;
 ?>
 </body>
 </html>

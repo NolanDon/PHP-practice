@@ -2,10 +2,16 @@
     class Person {
         public $name = "Nolan";
         public $eyeColor = "Green";
-        protected $first = "Daniel";
-        private $last = "Nielsen";
-        private $age = "29";
+        public $age = "29";
         
+
+        public function __construct($name, $eyeColor, $age, $last = "Boxill") {
+            $this->name = $name;
+            $this->eyeColor = $eyeColor;
+            $this->age = $age;
+            $this->first = $first;
+        }
+
         public function setName($name) {
             $this->name = $name;
         }
