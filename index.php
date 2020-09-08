@@ -17,13 +17,15 @@
     // $me2->setName("Timmy");
     // echo $me2->name;
 
-    $me = new Person('Name', 'Green', '26');
-    $me->setName('Jerry');
-    echo $me->getName();
+    // $me = new Person('Name', 'Green', '26');
+    // $me->setName('Jerry');
+    // echo $me->getName();
     // echo $me->name;
     // echo $me->eyeColor;
     // echo $me->age;
     // echo $me->last;
+
+    echo Person::$drinkingAge;
 ?>
 </body>
 </html>
