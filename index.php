@@ -8,8 +8,8 @@
     // $rover = new Person();
     // echo 'my owner is: '.$rover->owner();
 
-    $cookie = new Pet();
-    echo $cookie->owner();
+    $cookie = new Person();
+    echo $cookie->owner();;
 ?>
 </body>
 </html>
