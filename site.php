@@ -6,27 +6,15 @@
     <title>
     </title>
     <body>
-
         <?php
-        // quick staircase algorithm
-            function staircase($numberOfStairs) {
-                for ($i = 1; $i <= $numberOfStairs; $i++) {
+        class NewClass {
+            public $info = "This is some info";
+        }
+        $object = new NewClass;
+        var_dump($object);
 
-                    $spaces = $numberOfStairs - $i;
-                    while ($spaces) {
-                        echo " ";
-                        $spaces--;
-                    }
-                    $staircase = $spaces - $i;
-
-                    while ($staircase < $spaces) {
-                        echo "#";
-                        $staircase++;
-                    }
-                    echo "<br>";
-                }
-            }
-            staircase(6);
         ?>
     </body>
 </html>
+
+
