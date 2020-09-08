@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-    include 'person.php'
+    include 'includes/person.php'
 ?>
 <html>
 <body>
