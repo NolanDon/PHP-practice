@@ -1,5 +1,5 @@
 <?php
-    include 'autoloader.php';
+    include './autoloader.inc.php';
 ?>
 <!DOCTYPE html>
 <html>
