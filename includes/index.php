@@ -1,7 +1,7 @@
-<!DOCTYPE html>
 <?php
-    include 'includes/person.php'
+    include 'autoloader.php';
 ?>
+<!DOCTYPE html>
 <html>
 <body>
 <?php 
