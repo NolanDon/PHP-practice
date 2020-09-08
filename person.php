@@ -1,15 +1,18 @@
 <?php
     class Person {
-        public $name = "Nolan";
-        public $eyeColor = "Green";
-        public $age = "29";
+        private $name = "Nolan";
+        private $eyeColor = "Green";
+        private $age = "29";
         
 
         public function __construct($name, $eyeColor, $age, $last = "Boxill") {
             $this->name = $name;
             $this->eyeColor = $eyeColor;
             $this->age = $age;
-            $this->first = $first;
+            $this->last = $last;
+        }
+
+        public function __destruct() {
         }
 
         public function setName($name) {
@@ -18,6 +21,11 @@
 
         public function owner() {
             $a = $this->first;
+            return $a;
+        }  
+
+        public function getName() {
+            $a = $this->name;
             return $a;
         }  
     }
