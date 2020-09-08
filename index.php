@@ -24,7 +24,11 @@
     // echo $me->eyeColor;
     // echo $me->age;
     // echo $me->last;
+    $me = new Person('Nolan', '26', 'Green');
+    echo $me->getDrinkingAge();
 
+    echo Person::$drinkingAge;
+    Person::setDrinkingAge('15');
     echo Person::$drinkingAge;
 ?>
 </body>

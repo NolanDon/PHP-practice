@@ -3,16 +3,23 @@
         private $name = "Nolan";
         private $eyeColor = "Green";
         private $age = "29";
-        
-        
+        public static $drinkingAge = '21';
+                
+        // Methods
         public function __construct($name, $eyeColor, $age, $last = "Boxill") {
             $this->name = $name;
             $this->eyeColor = $eyeColor;
             $this->age = $age;
             $this->last = $last;
         }
-        
-        public static $drinkingAge = 21;
+
+        public function getDrinkingAge() {
+            return self::$drinkingAge;
+        }
+
+        public static function setDrinkingAge($newDrinkingAge) {
+            self::$drinkingAge = $newDrinkingAge;
+        }
 
         public function __destruct() {
         }
